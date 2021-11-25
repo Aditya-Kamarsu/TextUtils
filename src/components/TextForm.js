@@ -31,8 +31,8 @@ export default function TextForm(props) {
         props.showAlert("Text copied","success");
     }
     return (
-        <div> 
-            <h1 style={{color: props.mode ==='dark' ? 'white' : 'black'}}>{props.heading}</h1>
+        <div className="my-5"> 
+            <h1 style={{color: props.mode ==='dark' ? 'white' : 'black'}} >{props.heading}</h1>
             <div className="mb-3">
             <textarea className="form-control" rows="8" value={text} placeholder="Enter Text Here" onChange={changeHandler} id="formBox" style={{backgroundColor: props.mode === 'dark' ? 'black' : 'white', color: props.mode === 'dark' ? 'white' : 'black'} }></textarea>
             </div>

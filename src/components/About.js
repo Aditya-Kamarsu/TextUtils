@@ -26,7 +26,7 @@ export default function About() {
         }
     }
     return (
-        <div className="container" style={myDarkMode}>
+        <div className="container my-5" style={myDarkMode}>
             <div className="accordion" id="accordionExample">
                 <h2 className="my-3">About Us</h2>
                 <div className="accordion-item" style={myDarkMode}>
